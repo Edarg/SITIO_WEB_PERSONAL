@@ -1,0 +1,133 @@
+
+body{
+     font-family: 'ubuntu';
+     margin: 0;
+     padding: 0;
+}
+
+
+/*inicia seccion del encabeza*/
+.esquina{
+    font-size: 25px;
+    color: white;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: paleturquoise;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+
+.titular{
+    text-align: center;
+    margin-top: 200px;
+   
+}
+
+h1{
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+header{
+    background: url(imagenes/pepe.jpg);    
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+/*finaliza seccion de encabezado*/
+
+/*incia seccion SOBRE MI*/
+
+h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+
+.texto_y_boton{
+    width: 42%;
+}
+
+.sobre_mi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ultimo_parrafo{
+    margin-bottom: 60px;
+}
+
+img{
+    margin-bottom: 100px;  
+}
+
+
+/*termina seccion SOBRE MI*/
+
+/*inicia seccion CONTACTO*/
+#parte_final{
+    background: linear-gradient(rgba(47,79,79,.94), rgba(0,191,255,.9));
+    padding: 10px 0 10px 0;
+    text-align: center;
+   
+}
+
+#parte_final h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+#parte_final a{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#parte_final p{
+    color: white;
+}
+
+/*termina seccion de contacto */
+
+
+
+
+
